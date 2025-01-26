@@ -1,3 +1,7 @@
+body{
+    background-color: #F8F2ED;
+}
+
 #titleBanner{
     padding: 10px 10px 10px 10px;
     margin: 1% 1% 2% 1%;
@@ -10,6 +14,13 @@
     text-align: center;
     font-family: Silkscreen Thick,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 250%;
+}
+
+#testSquare{
+    width: 250px;
+    height: 250px;
+    background-color:  #bbdefb  ;
+    transform: translate(500px, 300px);
 }
 
 
