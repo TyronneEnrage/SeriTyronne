@@ -1,0 +1,11 @@
+#titleBanner{
+    padding: 10px 10px 10px 10px;
+    margin: 1% 1% 2% 1%;
+    background-image: linear-gradient(to top right, #0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88,#C1357C, #C60270);
+    border: 1px solid black;
+    
+}
+
+#titleBanner h1{
+    text-align: center;
+}
