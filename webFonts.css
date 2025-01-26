@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "Silkscreen Thick";
+    src: url("Storage/Fonts/Silkscreen/Silkscreen-Bold.ttf") format('truetype'); 
+}
+
+@font-face {
     font-family: "Space Grostesk";
     src: url("/Fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf") format('truetype');
 }
