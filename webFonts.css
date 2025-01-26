@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Silkscreen Regular";
+    src: url("/Storage/Fonts/Silkscreen/Silkscreen-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Space Grostesk";
+    src: url("/Fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf") format('truetype');
+}
