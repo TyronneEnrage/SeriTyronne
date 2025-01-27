@@ -7,7 +7,19 @@ body{
     margin: 1% 1% 2% 1%;
     background-image: linear-gradient(to top right, #0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88,#C1357C, #C60270);
     border: 1px solid black;
-    
+    animation: title 1s ease-in-out infinite;
+}
+
+@keyframes title {
+    0% {background-image: linear-gradient(to top right, #0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88,#C1357C, #C60270);}
+    12.5% {background-image: linear-gradient(to top right, #C60270 ,#0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88,#C1357C);}
+    25% {background-image: linear-gradient(to top right, #C1357C,#C60270 ,#0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88);}
+    37.5% {background-image: linear-gradient(to top right,#AC4A88,#C1357C,#C60270 ,#0038A8,#3745A2,#63479A,#7F4B98,#9B4F96);}
+    50% {background-image: linear-gradient(to top right, #9B4F96,#AC4A88,#C1357C,#C60270 ,#0038A8,#3745A2,#63479A,#7F4B98);}
+    62.5% {background-image: linear-gradient(to top right, #7F4B98,#9B4F96,#AC4A88,#C1357C,#C60270 ,#0038A8,#3745A2,#63479A);}
+    75% {background-image: linear-gradient(to top right, #63479A ,#7F4B98,#9B4F96,#AC4A88,#C1357C,#C60270 ,#0038A8,#3745A2);}
+    87.5% {background-image: linear-gradient(to top right, #3745A2,#63479A ,#7F4B98,#9B4F96,#AC4A88,#C1357C,#C60270 ,#0038A8);}
+    100% {background-image: linear-gradient(to top right, #0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88,#C1357C, #C60270);}
 }
 
 #titleBanner h1{
