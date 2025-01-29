@@ -19,6 +19,7 @@ content
     - Gaming
     - Reading
     - Gym
+    - photography
   #invention
   #contacts
 

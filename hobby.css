@@ -8,14 +8,17 @@
 
 /*test1*/
 
-#testBlock{
-    margin-left: 3%;
+#Gaming{
+    background-image: url(Storage/Images/testImage1.png);
+}
+
+.oddBlk{
+    margin: 3% 3%;
     width: 250px;
     height: 250px;
-    background-image: url(Storage/Images/testImage1.png);
     background-size: 250px 250px;
     background-repeat: no-repeat;
-    background-color: blueviolet;
+    background-color: #2da0ff;
     transition: width 1s;
 }
 
@@ -23,11 +26,11 @@
     visibility: hidden;
 }
 
-#testBlock:hover p{
+.oddBlk:hover p{
     animation: visibleText 1s ease-in infinite;
 }
 
-#testBlock:hover{
+.oddBlk:hover{
     box-shadow: 10px 10px 5px lightsalmon;
     animation: imageProp 2s ease-in-out 50ms infinite alternate;
     width: 650px;
@@ -57,19 +60,18 @@
 
 /*test 2*/
 
-#testBlk{
-    margin-top: 5%;
+.evenBlk{
     width: 250px;
     height: 250px;
     background-image: url(Storage/Images/testImage1.png);
     background-size: 250px 250px;
     background-repeat: no-repeat;
     transform: translate(200px, 0px);
-    background-color: blue;
+    background-color: #2da0ff;
     transition: width 1s;
 }
 
-#testBlk:hover{
+.evenBlk:hover{
     width: 650px;
     animation: imageProp 2s ease-in-out 50ms infinite alternate;
 }
