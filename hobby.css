@@ -12,6 +12,10 @@
     background-image: url(Storage/Images/testImage1.png);
 }
 
+#trigger{
+    width: 100%;
+}
+
 .oddBlk{
     margin: 3% 3%;
     width: 250px;
@@ -39,9 +43,9 @@
 
 @keyframes visibleText {
         0%{visibility: visible;
-            transform: translate(170px, 0px);}
+            transform: translate(40%, 5px);}
         100%{visibility: visible;
-            transform: translate(170px, 0px);}
+            transform: translate(40%, 5px);}
 }
 
 @keyframes imageProp {
