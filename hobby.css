@@ -1,0 +1,46 @@
+#testBlock{
+    width: 150px;
+    height: 150px;
+    background-image: url(Storage/Images/testImage1.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+    transform: translate(50px, 0px);
+    transition: width 1s;
+}
+
+#testText{
+    visibility: hidden;
+}
+
+#testBlock:hover p{
+    animation: visibleText 1s ease-in infinite;
+}
+
+#testBlock:hover{
+    box-shadow: 10px 10px 5px lightsalmon;
+    animation: imageProp 2s ease-in-out 50ms infinite alternate;
+    width: 350px;
+    height: 150px;
+}
+
+@keyframes visibleText {
+        0%{visibility: visible;
+            transform: translate(170px, 0px);}
+        100%{visibility: visible;
+            transform: translate(170px, 0px);}
+}
+
+@keyframes imageProp {
+    0% {box-shadow: 10px 10px 5px lightsalmon;
+        background-image: url(Storage/Images/testImage1.png);
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        }
+    50% {box-shadow: 10px 10px 5px blue;}
+    100% {box-shadow: 10px 10px 5px black;
+        background-image: url(Storage/Images/testImage2.png);
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        }
+}
