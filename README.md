@@ -16,6 +16,9 @@ Layout
 content
   #about the author
   #hobby
+    - Gaming
+    - Reading
+    - Gym
   #invention
   #contacts
 
