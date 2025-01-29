@@ -1,11 +1,21 @@
+#hobby{
+    width: 80%;
+    height: auto;
+    background-color: #bbdefb;
+    margin: 0% 0% 5% 8%;
+    padding: 1% 1% 1% 1%;
+}
+
+/*test1*/
+
 #testBlock{
-    width: 150px;
-    height: 150px;
+    margin-left: 3%;
+    width: 250px;
+    height: 250px;
     background-image: url(Storage/Images/testImage1.png);
-    background-size: 150px 150px;
+    background-size: 250px 250px;
     background-repeat: no-repeat;
     background-color: blueviolet;
-    transform: translate(50px, 0px);
     transition: width 1s;
 }
 
@@ -20,8 +30,8 @@
 #testBlock:hover{
     box-shadow: 10px 10px 5px lightsalmon;
     animation: imageProp 2s ease-in-out 50ms infinite alternate;
-    width: 350px;
-    height: 150px;
+    width: 650px;
+    height: 250px;
 }
 
 @keyframes visibleText {
@@ -34,13 +44,32 @@
 @keyframes imageProp {
     0% {box-shadow: 10px 10px 5px lightsalmon;
         background-image: url(Storage/Images/testImage1.png);
-        background-size: 150px 150px;
+        background-size: 250px 250px;
         background-repeat: no-repeat;
         }
     50% {box-shadow: 10px 10px 5px blue;}
     100% {box-shadow: 10px 10px 5px black;
         background-image: url(Storage/Images/testImage2.png);
-        background-size: 150px 150px;
+        background-size: 250px 250px;
         background-repeat: no-repeat;
         }
+}
+
+/*test 2*/
+
+#testBlk{
+    margin-top: 5%;
+    width: 250px;
+    height: 250px;
+    background-image: url(Storage/Images/testImage1.png);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    transform: translate(200px, 0px);
+    background-color: blue;
+    transition: width 1s;
+}
+
+#testBlk:hover{
+    width: 650px;
+    animation: imageProp 2s ease-in-out 50ms infinite alternate;
 }
