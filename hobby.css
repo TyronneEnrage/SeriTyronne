@@ -2,6 +2,7 @@
     width: 80%;
     height: auto;
     background-color: #bbdefb;
+    box-shadow: 8px 6px 5px 5px #d6ecff;
     margin: 0% 0% 5% 8%;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
@@ -30,7 +31,7 @@
 }
 
 #Gaming:hover{
-    box-shadow: 10px 10px 5px lightsalmon;
+    box-shadow: 8px 6px 5px 5px #2471a3;
     animation: imageProp1 2s ease-in-out 50ms infinite alternate;
     width: 650px;
     height: 250px;
@@ -57,16 +58,16 @@
 }
 
 @keyframes imageProp1 {
-    0% {box-shadow: 10px 10px 5px lightsalmon;
+    0% {box-shadow: 8px 6px 5px 5px #2471a3;
         background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 10px 10px 5px blue;
+    50% {box-shadow: 8px 6px 5px 5px  #abb2b9;
         background-image: url(Storage/Images/hobby/game/MOST.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;}
-    100% {box-shadow: 10px 10px 5px black;
+    100% {box-shadow: 8px 6px 5px 5px #2471a3;
         background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
         background-size: 250px 250px;
         background-repeat: no-repeat;
@@ -89,7 +90,7 @@
 }
 
 #Photography:hover{
-    box-shadow: 10px 10px 5px lightsalmon;
+    box-shadow: 8px 6px 5px 5px #d6ecff;
     animation: imageProp2 2s ease-in-out 50ms infinite alternate;
     width: 650px;
     height: 250px;
@@ -112,16 +113,16 @@
 }
 
 @keyframes imageProp2 {
-    0% {box-shadow: 10px 10px 5px lightsalmon;
+    0% {box-shadow: 8px 6px 5px 5px #2471a3;
         background-image: url(Storage/Images/hobby/photography/IMG_20240325_134146_510.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 10px 10px 5px blue;
+    50% {box-shadow: 8px 6px 5px 5px #abb2b9;
         background-image: url(Storage/Images/hobby/photography/IMG_20240518_111552_389.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;}
-    100% {box-shadow: 10px 10px 5px black;
+    100% {box-shadow: 8px 6px 5px 5px #2471a3;
         background-image: url(Storage/Images/hobby/photography/P_20220925_120204_HDR.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
@@ -143,7 +144,7 @@
 }
 
 #gym:hover{
-    box-shadow: 10px 10px 5px lightsalmon;
+    box-shadow: 8px 6px 5px 5px #d6ecff;
     animation: imageProp3 2s ease-in-out 50ms infinite alternate;
     width: 650px;
     height: 250px;
@@ -168,16 +169,16 @@
 
 
 @keyframes imageProp3 {
-    0% {box-shadow: 10px 10px 5px rgb(243, 243, 243);
+    0% {box-shadow: 8px 6px 5px 5px #2471a3;
         background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 10px 10px 5px blue;
+    50% {box-shadow: 8px 6px 5px 5px  #abb2b9;
         background-image: url(Storage/Images/hobby/game/MOST.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;}
-    100% {box-shadow: 10px 10px 5px black;
+    100% {box-shadow: 8px 6px 5px 5px #2471a3;
         background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
         background-size: 250px 250px;
         background-repeat: no-repeat;
