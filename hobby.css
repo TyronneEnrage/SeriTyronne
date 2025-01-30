@@ -4,6 +4,7 @@
     background-color: #bbdefb;
     margin: 0% 0% 5% 8%;
     padding: 1% 1% 1% 1%;
+    border-radius: 10px;
 }
 
 @keyframes visibleText {
@@ -18,6 +19,7 @@
 
 #Gaming{
     background-image: url(Storage/Images/hobby/game/MOST.jpg);
+    border-radius: 30px 10px;
     margin: 3% 3%;
     width: 250px;
     height: 250px;
@@ -76,6 +78,7 @@
 
 #Photography{
     background-image: url(Storage/Images/hobby/photography/IMG_20240214_100432_261.jpg);
+    border-radius: 10px 30px;
     width: 250px;
     height: 250px;
     background-size: 250px 250px;
@@ -129,6 +132,7 @@
 
 #gym{
     background-image: url(Storage/Images/Current_pfp.png);
+    border-radius: 30px 10px;
     margin: 3% 3%;
     width: 250px;
     height: 250px;
