@@ -6,10 +6,128 @@
     padding: 1% 1% 1% 1%;
 }
 
-/*test1*/
+/*Gaming SubSquare*/
 
 #Gaming{
-    background-image: url(Storage/Images/testImage1.png);
+    background-image: url(Storage/Images/hobby/game/MOST.jpg);
+    margin: 3% 3%;
+    width: 250px;
+    height: 250px;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-color: #2da0ff;
+    transition: width 1s;
+}
+
+#Gaming:hover{
+    box-shadow: 10px 10px 5px lightsalmon;
+    animation: imageProp1 2s ease-in-out 50ms infinite alternate;
+    width: 650px;
+    height: 250px;
+}
+
+#Gaming:hover p{
+    animation: visibleText 1s 1s linear infinite;
+}
+
+@keyframes imageProp1 {
+    0% {box-shadow: 10px 10px 5px lightsalmon;
+        background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+        }
+    50% {box-shadow: 10px 10px 5px blue;
+        background-image: url(Storage/Images/hobby/game/MOST.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;}
+    100% {box-shadow: 10px 10px 5px black;
+        background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+        }
+}
+
+
+/*Photography SubSquare*/
+
+#Photography{
+    background-image: url(Storage/Images/hobby/photography/IMG_20240214_100432_261.jpg);
+    width: 250px;
+    height: 250px;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-color: #2da0ff;
+    transform: translate(200px, 0px);
+    transition: width 1s;
+}
+
+#Photography:hover{
+    box-shadow: 10px 10px 5px lightsalmon;
+    animation: imageProp2 2s ease-in-out 50ms infinite alternate;
+    width: 650px;
+    height: 250px;
+}
+
+#Photography:hover p{
+    animation: visibleText 1s 1s linear infinite;
+}
+
+@keyframes imageProp2 {
+    0% {box-shadow: 10px 10px 5px lightsalmon;
+        background-image: url(Storage/Images/hobby/photography/IMG_20240325_134146_510.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+        }
+    50% {box-shadow: 10px 10px 5px blue;
+        background-image: url(Storage/Images/hobby/photography/IMG_20240518_111552_389.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;}
+    100% {box-shadow: 10px 10px 5px black;
+        background-image: url(Storage/Images/hobby/photography/P_20220925_120204_HDR.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+        }
+}
+
+/*Gym SubSquare*/
+
+#gym{
+    background-image: url(Storage/Images/Current_pfp.png);
+    margin: 3% 3%;
+    width: 250px;
+    height: 250px;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-color: #2da0ff;
+    transition: width 1s;
+}
+
+#gym:hover{
+    box-shadow: 10px 10px 5px lightsalmon;
+    animation: imageProp3 2s ease-in-out 50ms infinite alternate;
+    width: 650px;
+    height: 250px;
+}
+
+#gym:hover p{
+    animation: visibleText 1s 1s linear infinite;
+}
+
+@keyframes imageProp3 {
+    0% {box-shadow: 10px 10px 5px rgb(243, 243, 243);
+        background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+        }
+    50% {box-shadow: 10px 10px 5px blue;
+        background-image: url(Storage/Images/hobby/game/MOST.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;}
+    100% {box-shadow: 10px 10px 5px black;
+        background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+        }
 }
 
 .oddBlk{
@@ -30,7 +148,7 @@
     animation: visibleText 1s 1s linear infinite;
 }
 
-.oddBlk:hover{
+.oddBlk:hover {
     box-shadow: 10px 10px 5px lightsalmon;
     animation: imageProp 2s ease-in-out 50ms infinite alternate;
     width: 650px;
@@ -46,13 +164,16 @@
 
 @keyframes imageProp {
     0% {box-shadow: 10px 10px 5px lightsalmon;
-        background-image: url(Storage/Images/testImage1.png);
+        background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 10px 10px 5px blue;}
+    50% {box-shadow: 10px 10px 5px blue;
+        background-image: url(Storage/Images/hobby/game/MOST.jpg);
+        background-size: 250px 250px;
+        background-repeat: no-repeat;}
     100% {box-shadow: 10px 10px 5px black;
-        background-image: url(Storage/Images/testImage2.png);
+        background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
@@ -63,11 +184,10 @@
 .evenBlk{
     width: 250px;
     height: 250px;
-    background-image: url(Storage/Images/testImage1.png);
     background-size: 250px 250px;
     background-repeat: no-repeat;
-    transform: translate(200px, 0px);
     background-color: #2da0ff;
+    transform: translate(200px, 0px);
     transition: width 1s;
 }
 
