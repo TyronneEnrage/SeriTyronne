@@ -170,16 +170,13 @@
 
 @keyframes imageProp3 {
     0% {box-shadow: 8px 6px 5px 5px #2471a3;
-        background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
+        background-image: url(Storage/Images/hobby/gym/P_20230528_171319.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 8px 6px 5px 5px  #abb2b9;
-        background-image: url(Storage/Images/hobby/game/MOST.jpg);
-        background-size: 250px 250px;
-        background-repeat: no-repeat;}
+    50% {box-shadow: 8px 6px 5px 5px  #abb2b9;}
     100% {box-shadow: 8px 6px 5px 5px #2471a3;
-        background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
+        background-image: url(Storage/Images/hobby/gym/P_20230528_171319.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
