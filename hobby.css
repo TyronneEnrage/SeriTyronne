@@ -12,10 +12,6 @@
     background-image: url(Storage/Images/testImage1.png);
 }
 
-#trigger{
-    width: 100%;
-}
-
 .oddBlk{
     margin: 3% 3%;
     width: 250px;
@@ -31,7 +27,7 @@
 }
 
 .oddBlk:hover p{
-    animation: visibleText 1s ease-in infinite;
+    animation: visibleText 1s 1s linear infinite;
 }
 
 .oddBlk:hover{
