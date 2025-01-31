@@ -28,3 +28,8 @@
     padding: 5px;
     transform: translate(35px, 0px);
 }
+
+#img2{
+    object-position: 22% 100%;
+}
+
