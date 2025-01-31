@@ -24,6 +24,7 @@
 .Projects{
     width: 400px;
     height: 400px;
+    object-fit: cover;
     padding: 5px;
     transform: translate(35px, 0px);
 }
