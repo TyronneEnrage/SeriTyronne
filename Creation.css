@@ -5,8 +5,8 @@
     margin-left: 5%;
     word-wrap: break-word;
     border-radius: 10px;
-    background-color: #bbdefb;
-    box-shadow: 8px 6px 5px 5px #d6ecff;
+    background-color: var(--baseBlue);
+    box-shadow: 8px 6px 5px 5px  var(--shadowBlue);
 }
 
 #inventions::after{

@@ -1,8 +1,8 @@
 #hobby{
     width: 80%;
     height: auto;
-    background-color: #bbdefb;
-    box-shadow: 8px 6px 5px 5px #d6ecff;
+    background-color: var(--baseBlue);
+    box-shadow: 8px 6px 5px 5px var(--shadowBlue);
     margin: 5% 0% 5% 8%;
     padding: 1% 1% 1% 1%;
     border-radius: 10px;
@@ -26,12 +26,12 @@
     height: 250px;
     background-size: 250px 250px;
     background-repeat: no-repeat;
-    background-color: #2da0ff;
+    background-color: var(--subTableBlue);
     transition: width 1s;
 }
 
 #Gaming:hover{
-    box-shadow: 8px 6px 5px 5px #2471a3;
+    box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
     animation: imageProp1 2s ease-in-out 50ms infinite alternate;
     width: 650px;
     height: 250px;
@@ -58,16 +58,16 @@
 }
 
 @keyframes imageProp1 {
-    0% {box-shadow: 8px 6px 5px 5px #2471a3;
+    0% {box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
         background-image: url(Storage/Images/hobby/game/20240616105830_1.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 8px 6px 5px 5px  #abb2b9;
+    50% {box-shadow: 8px 6px 5px 5px  var(--pulse2Blue);
         background-image: url(Storage/Images/hobby/game/MOST.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;}
-    100% {box-shadow: 8px 6px 5px 5px #2471a3;
+    100% {box-shadow: 8px 6px 5px 5px  var(--pulse1Blue);
         background-image: url(Storage/Images/hobby/game/Seriousity_7-7-2024_10730984.png);
         background-size: 250px 250px;
         background-repeat: no-repeat;
@@ -84,13 +84,13 @@
     height: 250px;
     background-size: 250px 250px;
     background-repeat: no-repeat;
-    background-color: #2da0ff;
+    background-color: var(--subTableBlue);
     transform: translate(200px, 0px);
     transition: width 1s;
 }
 
 #Photography:hover{
-    box-shadow: 8px 6px 5px 5px #d6ecff;
+    box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
     animation: imageProp2 2s ease-in-out 50ms infinite alternate;
     width: 650px;
     height: 250px;
@@ -113,16 +113,16 @@
 }
 
 @keyframes imageProp2 {
-    0% {box-shadow: 8px 6px 5px 5px #2471a3;
+    0% {box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
         background-image: url(Storage/Images/hobby/photography/IMG_20240325_134146_510.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 8px 6px 5px 5px #abb2b9;
+    50% {box-shadow: 8px 6px 5px 5px var(--pulse2Blue);
         background-image: url(Storage/Images/hobby/photography/IMG_20240518_111552_389.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;}
-    100% {box-shadow: 8px 6px 5px 5px #2471a3;
+    100% {box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
         background-image: url(Storage/Images/hobby/photography/P_20220925_120204_HDR.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
@@ -139,12 +139,12 @@
     height: 250px;
     background-size: 250px 250px;
     background-repeat: no-repeat;
-    background-color: #2da0ff;
+    background-color: var(--subTableBlue);
     transition: width 1s;
 }
 
 #gym:hover{
-    box-shadow: 8px 6px 5px 5px #d6ecff;
+    box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
     animation: imageProp3 2s ease-in-out 50ms infinite alternate;
     width: 650px;
     height: 250px;
@@ -169,13 +169,13 @@
 
 
 @keyframes imageProp3 {
-    0% {box-shadow: 8px 6px 5px 5px #2471a3;
+    0% {box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
         background-image: url(Storage/Images/hobby/gym/P_20230528_171319.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
         }
-    50% {box-shadow: 8px 6px 5px 5px  #abb2b9;}
-    100% {box-shadow: 8px 6px 5px 5px #2471a3;
+    50% {box-shadow: 8px 6px 5px 5px  var(--pulse2Blue);}
+    100% {box-shadow: 8px 6px 5px 5px var(--pulse1Blue);
         background-image: url(Storage/Images/hobby/gym/P_20230528_171319.jpg);
         background-size: 250px 250px;
         background-repeat: no-repeat;
