@@ -1,8 +1,8 @@
 .actualLink{
     display: inline-block;
-    padding: 50px 150px;
+    padding: 50px 125px;
     text-decoration: none;
-    margin: 2% 0% 2% 2%;
+    margin: 2% 0% 0% 2%;
     font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 250%;
     border: 1px solid black;
@@ -12,6 +12,8 @@
 .actualLink:active{
     color: black;
 }
+
+
 
 
 
