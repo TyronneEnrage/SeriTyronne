@@ -23,7 +23,18 @@
 }
 
 #comms{
-    background-color: #5865f2;
+    background-color: #82abe2;
+}
+
+#comms span{
+    position:absolute;
+    opacity: 0;
+}
+
+#comms span:hover{
+    opacity: 1;
+    background-color: #82abe2;
+    margin-left: -7%;
 }
 
 #repo{
