@@ -1,13 +1,14 @@
 .actualLink{
     display: inline-block;
-    padding: 50px 125px;
     text-decoration: none;
+    padding: 100px;
     margin: 2% 0% 2% 2%;
     font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 250%;
-    border: 1px solid black;
+    font-size: 200%;
     color: black;
     border-radius: 10px;
+    width: 200px;
+    text-align: center;
 }
 
 .actualLink:active{
@@ -16,7 +17,7 @@
 
 #mail{
     background-color: var(--subTableBlue);
-    min-width: 50px;
+    margin-left: 8vh;
 }
 
 #social{
@@ -25,6 +26,7 @@
 
 #comms{
     background-color: #82abe2;
+    margin-left: 8vh;
 }
 
 #comms span{
