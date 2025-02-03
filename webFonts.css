@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Silkscreen Regular";
-    src: url("/Storage/Fonts/Silkscreen/Silkscreen-Regular.ttf") format('truetype');
+    src: url("Storage/Fonts/Silkscreen/Silkscreen-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "Silkscreen Thick";
-    src: url("/Storage/Fonts/Silkscreen/Silkscreen-Bold.ttf") format('truetype'); 
+    src: url("Storage/Fonts/Silkscreen/Silkscreen-Bold.ttf") format('truetype'); 
 }
 
 @font-face {
