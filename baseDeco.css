@@ -12,31 +12,32 @@ body{
 
 h2 {
     font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 250%;
+    font-size: 5vh;
     margin: 10% 0% 0% 3%;
 }
 
 h3{
     font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 150%;
+    font-size: 3vh;
     margin-top: 0%;
 }
 
 h4{
     font-family: Silkscreen Regular, Arial, Helvetica, sans-serif;
-    font-size: 400%;
+    font-size: 8vh;
     margin: 0% 0% 3%;
 }
 
 h5{
     font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
-    font-size: 250%;
+    font-size: 5vh;
     margin: 0% 0% 5% 1%;
 
 }
 
 p {
     font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
+    font-size: 1.8vh;
 }
 
 
@@ -49,6 +50,8 @@ p {
     background-image: linear-gradient(to top right, #0038A8,#3745A2,#63479A,#7F4B98,#9B4F96,#AC4A88,#C1357C, #C60270);
     border: 1px solid black;
     animation: title 1s ease-in-out infinite;
+    width: auto;
+    max-width: 100%;
 }
 
 @keyframes title {
@@ -66,7 +69,7 @@ p {
 #titleBanner h1{
     text-align: center;
     font-family: Silkscreen Thick,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 250%;
+    font-size: 3vw;
 }
 
 /*About Me*/
@@ -109,11 +112,12 @@ p {
     100%{color: rgba(0, 0, 0, 1);}
 }
 
-#profilePic{
-    width: 400px;
-    height: 400px;
+.columns #profilePic{
     padding: 5px;
     transform: translate(35px, 0px);
+    max-width: 80%;
+    height: auto;
+    
 }
 
 #info{

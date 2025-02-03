@@ -22,11 +22,12 @@
 }
 
 .Projects{
-    width: 400px;
-    height: 400px;
+    max-width: 80%;
+    height: auto;
     object-fit: cover;
     padding: 5px;
     transform: translate(35px, 0px);
+    margin-left: 2%;
 }
 
 #img2{

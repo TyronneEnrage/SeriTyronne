@@ -16,6 +16,7 @@
 
 #mail{
     background-color: var(--subTableBlue);
+    min-width: 50px;
 }
 
 #social{
