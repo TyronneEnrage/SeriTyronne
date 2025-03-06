@@ -37,10 +37,14 @@ h5{
 
 p {
     font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
-    font-size: 1.8vh;
+    font-size: 2vh;
 }
 
-
+a{
+    font-family: Silkscreen Regular, Arial, Helvetica, sans-serif;
+    font-size: 6vh;
+    margin: 0% 0% 3%;
+}
 
 
 
@@ -121,6 +125,17 @@ p {
     text-align: justify;
 }
 
+#progLang{
+    float: left;
+    padding: 10px;
+    width: 87%;
+    margin: 1% 0% 5% 5%;
+    word-wrap: break-word;
+    border-radius: 10px;
+    background-color: #bbdefb;
+    box-shadow: 8px 6px 5px 5px #d6ecff;
+}
+
 
 
 /*THE CREATION AND INVENTIONS SECTION*/
@@ -145,19 +160,32 @@ p {
 
 
 /*THE CONTACTS SECTION*/
-
 .actualLink{
-    display: inline-block;
+    display: inline-table;
     text-decoration: none;
     padding: 100px;
-    margin: 2% 0% 2% 2%;
-    font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 200%;
     color: black;
     border-radius: 10px;
-    width: 200px;
+    width: 60%;
     text-align: center;
 }
+
+.columnsC{
+    float: left;
+    padding: 10px;
+    width: 40%;
+    margin: 3% 0% 5% 5%;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+.rowContact::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .actualLink:active{
     color: black;
@@ -165,7 +193,7 @@ p {
 
 #mail{
     background-color: var(--subTableBlue);
-    margin-left: 8vh;
+
 }
 
 #social{
@@ -174,7 +202,6 @@ p {
 
 #comms{
     background-color: #82abe2;
-    margin-left: 8vh;
 }
 
 #comms span{
@@ -201,13 +228,20 @@ p {
 
 
 @media screen and (max-width: 780px){
+    .columnsC{
+        width: 100%;
+    }
+
+    #progLang{
+        width: 100%;
+    }
 
     #mainBody{
         margin-right: 15%;
     }
 
     h4{
-        font-size: 350%;
+        font-size: 6vh;
     }
 
     .columns{
@@ -217,6 +251,57 @@ p {
     }
 }
 
+
+@media screen and (max-width:480px) {
+    .actualLink{
+        display: inline-table;
+        padding: 100px;
+        border-radius: 10px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .columnsC{
+        width: 100%;
+    }
+
+    #social{
+        background-color: #5e52e9;
+        padding: 75px 75px 100px;
+    }
+    
+
+    h2 {
+        font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 4vh;
+        margin: 3% 3% 0% 3%;
+    }
+    
+    h3{
+        font-family: Silkscreen Regular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2vh;
+        margin-top: 0%;
+    }
+    
+    h4{
+        font-family: Silkscreen Regular, Arial, Helvetica, sans-serif;
+        font-size: 5vh;
+        margin: 0% 0% 3%;
+    }
+    
+    h5{
+        font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
+        font-size: 3vh;
+        margin: 0% 0% 5% 1%;
+    
+    }
+
+    p {
+        font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
+        font-size: 2vh;
+    }
+    
+}
 
 
 
