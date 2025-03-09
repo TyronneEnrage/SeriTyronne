@@ -35,10 +35,17 @@ h5{
 
 }
 
-p {
+p{
     font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
     font-size: 2vh;
 }
+
+li{
+    font-family: Space-Grostesk, Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    list-style-type:square;
+}
+
 
 a{
     font-family: Silkscreen Regular, Arial, Helvetica, sans-serif;
