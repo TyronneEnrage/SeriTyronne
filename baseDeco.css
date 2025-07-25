@@ -260,6 +260,10 @@ a{
 
 
 @media screen and (max-width:480px) {
+    #mainContent{
+        margin-left: 5%;
+    }
+
     .actualLink{
         display: inline-table;
         padding: 100px;
